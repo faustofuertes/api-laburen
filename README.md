@@ -29,7 +29,7 @@ src/
     npm install
 
 3. Crear archivo .env en la raíz con la configuración de DB:
-    DB_USER=postresql
+    DB_USER=tu_user
     DB_HOST=localhost
     DB_PASSWORD=tu_password
     DB_DATABASE=tu_db
@@ -44,8 +44,6 @@ src/
 ---
 
 ## 🔌 Endpoints principales
-
-
 📦 Productos
     GET /products → Lista todos los productos.
     GET /products/:id → Obtiene un producto por ID.
