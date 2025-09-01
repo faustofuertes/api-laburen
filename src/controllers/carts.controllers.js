@@ -1,6 +1,5 @@
 import pool from '../db.js';
 
-
 export const getCartById = async (req, res) => {
     const { cartId } = req.params;
 

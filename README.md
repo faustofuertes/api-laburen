@@ -1,4 +1,4 @@
-# 🛒 API Laburen
+# 🛠️ API Laburen
 Backend de **ecommerce** desarrollado con **Node.js + Express + PostgreSQL** (DB hosteada en **Neon**).  
 Provee los endpoints REST que consume el [Agente Laburen](https://github.com/faustofuertes/agent-laburen).
 
@@ -10,7 +10,7 @@ Provee los endpoints REST que consume el [Agente Laburen](https://github.com/fau
 
 ---
 
-## ⚡ Instalación local
+## ⚙️ Instalación local
 1. **Clonar este repo**
    ```bash
    git clone https://github.com/faustofuertes/api-laburen.git

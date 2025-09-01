@@ -8,7 +8,7 @@ const pool = new Pool({
     database: DB_DATABASE,
     password: DB_PASSWORD,
     port: DB_PORT,
-    ssl: { rejectUnauthorized: false } // ← necesario en Neon
+    ssl: { rejectUnauthorized: false }
 });
 
 export default pool;
