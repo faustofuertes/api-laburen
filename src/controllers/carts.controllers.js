@@ -87,8 +87,10 @@ export const patchCart = async (req, res) => {
             } else {
                 await client.query(`
                     INSERT INTO cart_items (cart_id, product_id, qty)
-                    VALUES ($1, $2, $3)`, [cartId, pid, qty]
-                );
+                    VALUES ($1, $2, $3)
+                    ON CONFLICT (cart_id, product_id)
+                    DO UPDATE SET qty = EXCLUDED.qty
+                `, [cartId, pid, qty]);
             }
         }
 
